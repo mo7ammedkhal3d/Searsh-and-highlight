@@ -1,0 +1,71 @@
+body,html {
+        height: 95vh;
+        background-color: #e7e7e7;
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.content {
+    height:75%;
+    width: 65%;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-searsh{
+    position: relative;
+    width: 80%;
+}
+
+.input-searsh input{
+    height: auto;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 0.2rem solid purple;
+    font-size: 1.2rem;
+}
+
+.input-searsh input:focus{
+    outline: none;
+    border: 0.2rem solid orange;
+}
+
+.delete-icon{
+    position: absolute;
+    right: 0.5%;
+    top: 22%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.searshed-data{
+    overflow-y: scroll;
+    width: 80%;
+    margin: 2rem 0;
+}
+
+.post{
+    padding: 0 2rem;
+}
+
+.post h3{
+    margin: 1rem 0;
+}
+
+.post p{
+    margin: 0 0 0 0.5rem;
+}
+
+.highlight{
+    background-color:yellow;
+    font-weight: bold;
+}
